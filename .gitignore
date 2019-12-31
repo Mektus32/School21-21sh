@@ -1,0 +1,10 @@
+/cmake-build-debug
+/minishell
+/obj
+/libft/obj
+/libft/libft.a
+/ft_printf/objs
+/ft_printf/libftprintf.a
+/.idea
+/.DS_Store
+/minishell.dSYM
