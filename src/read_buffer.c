@@ -22,12 +22,6 @@ void quotes(int *count_double_quotes, int *count_quotes, char ch)
 	}
 }
 
-int		print_ch(int ch)
-{
-	write(1, &ch, 1);
-	return '\n';
-}
-
 char *read_buffer(t_general *sh)
 {
 	char	c;
@@ -38,16 +32,19 @@ char *read_buffer(t_general *sh)
 	buffer = ft_strnew(0);
 	count_double_quotes = 0;
 	count_quotes = 0;
-	while (read(STDIN_FILENO, &c, 1) > 0 || count_double_quotes || count_quotes)
+	while (read(STDIN_FILENO, &c, 1) > 0)
 	{
 		if (ft_isprint(c))
 		{
 			c == '\'' || c == '"' ? quotes(&count_double_quotes, &count_quotes, c) : 0;
 			buffer = ft_strplussymb(buffer, c);//write an input function to any place in the string
-			write(1, "check1\n", 7);
-			tputs("kek", 1, putchar);
-			write(1, "check2\n", 7);
-
+			//write(1, "check1\n", 7);
+			//tputs("kek", 1, putchar);
+			ft_printf("[%c]", c);
+			tputs(tgetstr("cl", 0), 1, putchar);
+			//write(1, &c, 1);
+			//ft_printf("%s\n", buffer);
+			//write(1, "check2\n", 7);
 		}
 		else
 			ft_strplussymb(buffer, c);

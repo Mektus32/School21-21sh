@@ -8,11 +8,31 @@
 # include <term.h>
 # include <termios.h>
 
+typedef struct	s_params_line
+{
+	char	*str;
+	int		str_len;
+	int		cursor_x;
+	int		cursor_y;
+}				t_params_line;
+
+typedef struct	s_environ
+{
+	char	**current_env;
+
+}				t_environ;
+
+typedef struct	s_terminal_mode
+{
+	struct termios	oldt;
+	BOOL			is_set;
+}				t_terminal_mode;
+
 typedef struct	s_general
 {
-	char	*terminal_buffer;
-	char	**current_env;
-	char	*prompt;
+	t_params_line	line_params;
+	t_environ		environ;
+	t_terminal_mode	mode;
 }				t_general;
 
 /*
@@ -23,7 +43,7 @@ void			init(t_general *sh, char **env);
 /*
 ** terminal_mode.c
 */
-void			change_terminal_mode();
+void change_terminal_mode(char *mode, t_terminal_mode *term);
 
 /*
 ** output_functions.c
@@ -46,5 +66,6 @@ void				main_loop(t_general *sh);
 ** small_functions.c
 */
 int					print_ch(int ch);
+void				ft_exit(int status);
 
 #endif
