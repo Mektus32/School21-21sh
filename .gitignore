@@ -1,5 +1,5 @@
 /cmake-build-debug
-/minishell
+/21sh
 /obj
 /libft/obj
 /libft/libft.a
@@ -7,4 +7,4 @@
 /ft_printf/libftprintf.a
 /.idea
 /.DS_Store
-/minishell.dSYM
+/21sh.dSYM

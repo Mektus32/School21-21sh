@@ -3,14 +3,20 @@
 NAME = 21sh
 
 # src / obj files
-SRC =   main.c
+SRC =   main.c \
+		main_loop.c \
+		output_functions.c \
+		read_buffer.c \
+		small_functions.c \
+		terminal_mode.c \
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))
 
 # compiler
 CC = gcc
-CFLAGS = -Wextra -Wall -Werror -g
+#CFLAGS = -ltermcap
+#CFLAGS = -Wextra -Wall -Werror -g
 # -fsanitize=address
 
 # ft library
@@ -33,7 +39,7 @@ OBJDIR = ./obj/
 all: $(NAME)
 
 $(NAME): obj $(FT_LIB) $(PR_LIB) grn $(OBJ)
-	@$(CC) $(CFLAGS) $(OBJ) $(PR_LNK) $(FT_LNK) -lm -o $(NAME)
+	@$(CC) $(CFLAGS) $(OBJ) $(PR_LNK) $(FT_LNK) -lm -lcurses  -o $(NAME)
 	@echo "\033[0m"
 
 red:
