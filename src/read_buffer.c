@@ -38,13 +38,11 @@ char *read_buffer(t_general *sh)
 		{
 			c == '\'' || c == '"' ? quotes(&count_double_quotes, &count_quotes, c) : 0;
 			buffer = ft_strplussymb(buffer, c);//write an input function to any place in the string
-			//write(1, "check1\n", 7);
-			//tputs("kek", 1, putchar);
-			ft_printf("[%c]", c);
-			tputs(tgetstr("cl", 0), 1, putchar);
-			//write(1, &c, 1);
-			//ft_printf("%s\n", buffer);
-			//write(1, "check2\n", 7);
+			if (c == '\n' && (count_double_quotes || count_quotes))
+			{
+				buffer = ft_strplussymb(buffer, c);
+				ft_putstr("\nqotes>");
+			}
 		}
 		else
 			ft_strplussymb(buffer, c);

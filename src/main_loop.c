@@ -4,6 +4,7 @@ void	main_loop(t_general *sh)
 {
 	while (TRUE)
 	{
-		sh->terminal_buffer = read_buffer(sh);
+		ft_putstr("$>");
+		read_buffer(sh);
 	}
 }
