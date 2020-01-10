@@ -13,6 +13,9 @@
 #ifndef LIBFT_H
 # define LIBFT_H
 # define ABS(Value) (Value < 0 ? -(Value) : Value)
+# define BOOL int
+# define TRUE 1
+# define FALSE 0
 
 # include <string.h>
 # include <unistd.h>
