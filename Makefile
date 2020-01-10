@@ -9,6 +9,7 @@ SRC =   main.c \
 		read_buffer.c \
 		small_functions.c \
 		terminal_mode.c \
+		key_handler.c \
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))

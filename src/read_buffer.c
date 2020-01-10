@@ -1,51 +1,37 @@
 #include "sh21.h"
 
-void quotes(int *count_double_quotes, int *count_quotes, char ch)
-{
-	if (ch == '\"')
-	{
-		if (*count_quotes)
-			return ;
-		else if (*count_double_quotes)
-			--(*count_double_quotes);
-		else
-			++(*count_double_quotes);
-	}
-	else
-	{
-		if (*count_double_quotes)
-			return ;
-		else if (*count_quotes)
-			--(*count_quotes);
-		else
-			++(*count_quotes);
-	}
-}
-
 char *read_buffer(t_general *sh)
 {
-	char	c;
+	long	c;
 	char	*buffer;
-	int		count_quotes;
-	int		count_double_quotes;
+	char	*tmp;
+	int		x = 0;
+	int		y = 0;
 
 	buffer = ft_strnew(0);
-	count_double_quotes = 0;
-	count_quotes = 0;
-	while (read(STDIN_FILENO, &c, 1) > 0)
+	c = 0;
+	while (read(STDIN_FILENO, &c, sizeof(long)) > 0)
 	{
-		if (ft_isprint(c))
+		if (c > 31 && c < 127)
 		{
-			c == '\'' || c == '"' ? quotes(&count_double_quotes, &count_quotes, c) : 0;
-			buffer = ft_strplussymb(buffer, c);//write an input function to any place in the string
-			if (c == '\n' && (count_double_quotes || count_quotes))
+			while (x != ft_strlen(buffer))
 			{
-				buffer = ft_strplussymb(buffer, c);
-				ft_putstr("\nqotes>");
+				tmp = tgetstr("le", NULL);
+				write(1, tmp, ft_strlen(tmp));
+				x++;
 			}
+			buffer = ft_strplussymb(buffer, (char)c);
+			write(1, buffer, ft_strlen(buffer));
+			x = 0;
+		}
+		else if (c == '\n')
+		{
+			buffer = ft_strplussymb(buffer, (char)c);
+			//break;
 		}
 		else
-			ft_strplussymb(buffer, c);
+			keys();
+		c = 0;
 	}
-
+	change_terminal_mode("std", &sh->mode);
 }

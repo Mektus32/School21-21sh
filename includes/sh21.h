@@ -55,7 +55,6 @@ void				print_error(char *error);
 ** read_buffer.c
 */
 char *read_buffer(t_general *sh);
-void quotes(int *count_double_quotes, int *count_quotes, char ch);
 
 /*
 ** main_loop.c
@@ -67,5 +66,10 @@ void				main_loop(t_general *sh);
 */
 int					print_ch(int ch);
 void				ft_exit(int status);
+
+/*
+** key_handler.c
+*/
+void	keys();
 
 #endif

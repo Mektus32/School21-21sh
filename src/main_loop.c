@@ -2,9 +2,10 @@
 
 void	main_loop(t_general *sh)
 {
-	while (TRUE)
+//	while (TRUE)
 	{
 		ft_putstr("$>");
+		sh->line_params.cursor_x += ft_strlen("$>");
 		read_buffer(sh);
 	}
 }

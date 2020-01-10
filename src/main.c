@@ -2,12 +2,18 @@
 
 void init(t_general *sh, char **env)
 {
-	struct termios old;
+	struct termios	old;
+	const char		*name = getenv("TERM");
+
 	sh->environ.current_env = ft_twarrcpy((const char**)env, INT_MAX);
 	tcgetattr(STDIN_FILENO, &old);
 	sh->mode.oldt = (const struct termios)old;
 	sh->mode.is_set = FALSE;
 	change_terminal_mode("raw", &sh->mode);
+	if (tgetent(NULL, name) != 1)
+		ft_exit(1);
+	sh->line_params.cursor_x = 0;
+	sh->line_params.cursor_y = 0;
 }
 
 int		main(int argc, char **argv, char **env)
