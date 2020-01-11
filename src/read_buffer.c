@@ -30,7 +30,7 @@ char *read_buffer(t_general *sh)
 			//break;
 		}
 		else
-			keys();
+			keys(c, sh->line_params);
 		c = 0;
 	}
 	change_terminal_mode("std", &sh->mode);
