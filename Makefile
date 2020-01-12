@@ -10,7 +10,8 @@ SRC =   main.c \
 		small_functions.c \
 		terminal_mode.c \
 		key_handler.c \
-		functions_for_move.c
+		functions_for_move.c \
+		functions_for_get_coordinates.c
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))

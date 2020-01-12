@@ -9,6 +9,8 @@
 # include <termios.h>
 # include <fcntl.h>
 
+extern int g_fd;
+
 /*
 ** keys to move cursor
 */
@@ -62,6 +64,7 @@
 */
 typedef struct	s_params_line
 {
+	int		prompt_len;
 	int		input_mode;
 	char	*str;
 	int		str_len;
@@ -133,6 +136,16 @@ void				ft_exit(int status);
 /*
 ** key_handler.c
 */
-void keys(long ch, t_params_line cursor);
+void keys(long ch, t_params_line *cursor);
+
+/*
+** functions_for_move.c
+*/
+void	ft_left_arrow(t_params_line *cursor);
+
+/*
+** functions_for_get_coordinates.c
+*/
+int		get_len_line(char *str, int y);
 
 #endif
