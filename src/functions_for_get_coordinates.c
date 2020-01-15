@@ -27,3 +27,18 @@ int		get_len_line(char *str, int y)
 	}
 	return (-1);
 }
+
+void	get_x_y_after_print(char *str, int *x, int *y)
+{
+	int		i;
+	int		value;
+
+	i = 0;
+	value = -1;
+	while ((value = get_len_line(str, i)) != -1)
+	{
+		*x = value;
+		*y = i;
+		++i;
+	}
+}

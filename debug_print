@@ -1,0 +1,62 @@
+init is done
+[read_buffer] x = 0, y = 0
+[print_buffer] x = 1 or x = 1
+[read_buffer] x = 1, y = 0
+[print_buffer] x = 2 or x = 2
+[read_buffer] x = 2, y = 0
+[print_buffer] x = 3 or x = 3
+[read_buffer] x = 3, y = 0
+[ft_left_arrow] x = 3, y = 0
+[print_buffer] x = 2 or x = 3
+[read_buffer] x = 2, y = 0
+[ft_left_arrow] x = 2, y = 0
+[print_buffer] x = 1 or x = 3
+[read_buffer] x = 1, y = 0
+[ft_left_arrow] x = 1, y = 0
+[print_buffer] x = 0 or x = 3
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 3
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 3
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 3
+[read_buffer] x = 0, y = 0
+[print_buffer] x = 1 or x = 4
+[read_buffer] x = 1, y = 0
+[print_buffer] x = 2 or x = 5
+[read_buffer] x = 2, y = 0
+[print_buffer] x = 3 or x = 6
+[read_buffer] x = 3, y = 0
+[print_buffer] x = 4 or x = 7
+[read_buffer] x = 4, y = 0
+[ft_left_arrow] x = 4, y = 0
+[print_buffer] x = 3 or x = 7
+[read_buffer] x = 3, y = 0
+[ft_left_arrow] x = 3, y = 0
+[print_buffer] x = 2 or x = 7
+[read_buffer] x = 2, y = 0
+[ft_left_arrow] x = 2, y = 0
+[print_buffer] x = 1 or x = 7
+[read_buffer] x = 1, y = 0
+[ft_left_arrow] x = 1, y = 0
+[print_buffer] x = 0 or x = 7
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 7
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 7
+[read_buffer] x = 0, y = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] x = 0 or x = 7
+[read_buffer] x = 0, y = 0
+[print_buffer] x = 1 or x = 8
+[read_buffer] x = 1, y = 0
+[print_buffer] x = 2 or x = 9
+[read_buffer] x = 2, y = 0
+[print_buffer] x = 3 or x = 10
+[read_buffer] x = 3, y = 0
+[print_buffer] x = 4 or x = 11

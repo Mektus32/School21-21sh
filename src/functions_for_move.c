@@ -2,37 +2,39 @@
 
 void	ft_left_arrow(t_params_line *cursor)
 {
-	char	*tmp;
 	int		len;
+	int		x;
+	int		y;
 
-	tmp = NULL;
+	x = cursor->imagin_cursor_x;
+	y = cursor->cursor_y;
 	if (cursor->input_mode == STANDART_MODE)
 	{
-		if (cursor->cursor_x > 0)
+		ft_printf("{set:fd}[ft_left_arrow] x = %d, y = %d\n", g_fd, x, y);
+		if (y == 0 && x == 0)
+			print_command("\a");
+		else if (y == 0 && x > 0)
 		{
-			--cursor->cursor_x;
-			tmp = tgetstr("le", NULL);
-			write(1, tmp, ft_strlen(tmp));
+			print_command(tgetstr("le", NULL));
+			--cursor->imagin_cursor_x;
 		}
-		else if (cursor->cursor_x == 0)
+		else if (y != 0 && x > 0)
 		{
-			if (cursor->cursor_y == 0)
+			print_command(tgetstr("le", NULL));
+			--cursor->imagin_cursor_x;
+		}
+		else if (y != 0 && x == 0)
+		{
+			print_command(tgetstr("le", NULL));
+			x = get_len_line(cursor->str, --y);
+			if (x == -1)
 			{
-				tmp = tgetstr("bl", NULL);
-				write(1, tmp, ft_strlen(tmp));
+				ft_printf("{set:fd} error coordinates then move left\n");
+				ft_exit(0);
 			}
-			else
-			{
-				--cursor->cursor_y;
-				len = get_len_line(cursor->str, cursor->cursor_y);
-				if (len < 0)
-				{
-					ft_printf("{set:fd}error change x coordinate str = %s, y = %d\n", 3, cursor->str, cursor->cursor_y);
-					ft_exit(0);
-				}
-				tmp = tgetstr("le", NULL);
-				write(1, tmp, ft_strlen(tmp));
-			}
+			cursor->imagin_cursor_x = x;
+			cursor->cursor_y = y;
 		}
 	}
+	cursor->real_cursor_x = cursor->imagin_cursor_x;
 }

@@ -7,7 +7,7 @@ void init(t_general *sh, char **env)
 	struct termios	old;
 	const char		*name = getenv("TERM");
 
-	sh->debug_fd = open("debug_print", O_CREAT | O_WRONLY | O_TRUNC | O_APPEND, S_IWRITE);
+	sh->debug_fd = open("debug_print", O_CREAT | O_WRONLY | O_TRUNC | O_APPEND/*, S_IWRITE*/);
 	g_fd = sh->debug_fd;
 	sh->environ.current_env = ft_twarrcpy((const char**)env, INT_MAX);
 	tcgetattr(STDIN_FILENO, &old);
@@ -16,10 +16,8 @@ void init(t_general *sh, char **env)
 	change_terminal_mode("raw", &sh->mode);
 	if (tgetent(NULL, name) != 1)
 		ft_exit(1);
-	sh->line_params.cursor_x = 0;
-	sh->line_params.cursor_y = 0;
 	sh->line_params.input_mode = STANDART_MODE;
-	ft_printf("{set:fd}init is done", g_fd);
+	ft_printf("{set:fd}init is done\n", g_fd);
 }
 
 int		main(int argc, char **argv, char **env)

@@ -43,6 +43,7 @@ int				ft_printf(const char *restrict fmt, ...)
 	ob.ret = 0;
 	ob.fd = 1;
 	ob.i = 0;
+	ob.dollar.dollar = 0;
 	va_start(ob.ap[0], fmt);
 	va_copy(ob.ap[1], ob.ap[0]);
 	while (fmt[ob.i])

@@ -10,3 +10,9 @@ void	ft_exit(int status)
 {
 	exit(status);
 }
+
+void print_command(char *str)
+{
+	if (str)
+		write(1, str, 1);
+}
