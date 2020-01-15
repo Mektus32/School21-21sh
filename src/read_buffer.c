@@ -15,16 +15,8 @@ char *read_buffer(t_general *sh)
 		ft_printf("{set:fd}[read_buffer] x = %d, y = %d\n", g_fd, sh->line_params.imagin_cursor_x, sh->line_params.cursor_y);
 		if (c > 31 && c < 127)
 		{
-			//while (x != sh->line_params.imagin_cursor_x)
-			{
-			//	tmp = tgetstr("le", NULL);
-				//write(1, tmp, ft_strlen(tmp));
-				//x++;
-			}
-			sh->line_params.str = ft_strplussymb(sh->line_params.str, (char)c);
 			++sh->line_params.imagin_cursor_x;
-			//ft_printf("%d", g_fd);
-			//ft_printf("{set:fd} %d\n", g_fd, sh->line_params.imagin_cursor_x);
+			sh->line_params.str = ft_insert_symbol(sh->line_params.str, sh->line_params.real_cursor_x, sh->line_params.cursor_y, (char)c);
 		}
 		else if (c == '\n')
 		{
