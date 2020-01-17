@@ -1,95 +1,28 @@
 init is done
-[read_buffer] x = 0, y = 0
-[print_buffer] x = 1 or x = 1
-[read_buffer] x = 1, y = 0
-[print_buffer] x = 2 or x = 2
-[read_buffer] x = 2, y = 0
-[print_buffer] x = 3 or x = 3
-[read_buffer] x = 3, y = 0
-[print_buffer] x = 4 or x = 4
-[read_buffer] x = 4, y = 0
-[print_buffer] x = 5 or x = 5
-[read_buffer] x = 5, y = 0
-[print_buffer] x = 6 or x = 6
-[read_buffer] x = 6, y = 0
-[print_buffer] x = 7 or x = 7
-[read_buffer] x = 7, y = 0
-[print_buffer] x = 8 or x = 8
-[read_buffer] x = 8, y = 0
-[print_buffer] x = 9 or x = 9
-[read_buffer] x = 9, y = 0
-[print_buffer] x = 10 or x = 10
-[read_buffer] x = 10, y = 0
-[print_buffer] x = 11 or x = 11
-[read_buffer] x = 11, y = 0
-[print_buffer] x = 12 or x = 12
-[read_buffer] x = 12, y = 0
-[ft_left_arrow] x = 12, y = 0
-[print_buffer] x = 11 or x = 12
-[read_buffer] x = 11, y = 0
-[ft_left_arrow] x = 11, y = 0
-[print_buffer] x = 10 or x = 12
-[read_buffer] x = 10, y = 0
-[ft_left_arrow] x = 10, y = 0
-[print_buffer] x = 9 or x = 12
-[read_buffer] x = 9, y = 0
-[ft_left_arrow] x = 9, y = 0
-[print_buffer] x = 8 or x = 12
-[read_buffer] x = 8, y = 0
-[ft_left_arrow] x = 8, y = 0
-[print_buffer] x = 7 or x = 12
-[read_buffer] x = 7, y = 0
-[ft_left_arrow] x = 7, y = 0
-[print_buffer] x = 6 or x = 12
-[read_buffer] x = 6, y = 0
-[ft_left_arrow] x = 6, y = 0
-[print_buffer] x = 5 or x = 12
-[read_buffer] x = 5, y = 0
-[ft_left_arrow] x = 5, y = 0
-[print_buffer] x = 4 or x = 12
-[read_buffer] x = 4, y = 0
-[ft_left_arrow] x = 4, y = 0
-[print_buffer] x = 3 or x = 12
-[read_buffer] x = 3, y = 0
-[ft_left_arrow] x = 3, y = 0
-[print_buffer] x = 2 or x = 12
-[read_buffer] x = 2, y = 0
-[print_buffer] x = 3 or x = 13
-[read_buffer] x = 3, y = 0
-[ft_left_arrow] x = 3, y = 0
-[print_buffer] x = 2 or x = 13
-[read_buffer] x = 2, y = 0
-[print_buffer] x = 3 or x = 14
-[read_buffer] x = 3, y = 0
-[ft_left_arrow] x = 3, y = 0
-[print_buffer] x = 2 or x = 14
-[read_buffer] x = 2, y = 0
-[print_buffer] x = 3 or x = 15
-[read_buffer] x = 3, y = 0
-[print_buffer] x = 4 or x = 16
-[read_buffer] x = 4, y = 0
-[print_buffer] x = 5 or x = 17
-[read_buffer] x = 5, y = 0
-[print_buffer] x = 6 or x = 18
-[read_buffer] x = 6, y = 0
-[print_buffer] x = 7 or x = 19
-[read_buffer] x = 7, y = 0
-[print_buffer] x = 8 or x = 20
-[read_buffer] x = 8, y = 0
-[print_buffer] x = 9 or x = 21
-[read_buffer] x = 9, y = 0
-[print_buffer] x = 10 or x = 22
-[read_buffer] x = 10, y = 0
-[print_buffer] x = 11 or x = 23
-[read_buffer] x = 11, y = 0
-[print_buffer] x = 12 or x = 24
-[read_buffer] x = 12, y = 0
-[print_buffer] x = 13 or x = 25
-[read_buffer] x = 13, y = 0
-[print_buffer] x = 14 or x = 26
-[read_buffer] x = 14, y = 0
-[print_buffer] x = 15 or x = 27
-[read_buffer] x = 15, y = 0
-[print_buffer] x = 16 or x = 28
-[read_buffer] x = 16, y = 0
-[print_buffer] x = 17 or x = 29
+0x7ffec7600000
+0x7ffec74025e0
+
+0x7ffec74025e0
+ command left 10x7ffec7500610
+
+0x7ffec7500610
+ command left 1 command left 10x7ffec74025d0
+
+0x7ffec74025d0
+ command left 1 command left 1 command left 10x7ffec74025e0
+
+0x7ffec74025e0
+ command left 1 command left 1 command left 1 command left 10x7ffec74025d0
+
+0x7ffec74025d0
+ command left 1 command left 1 command left 1 command left 1 command left 10x7ffec7500bf0
+
+0x7ffec7500bf0
+ command left 1 command left 1 command left 1 command left 1 command left 1 command left 10x7ffec7500610
+
+0x7ffec7500610
+ command left 1 command left 1 command left 1 command left 1 command left 1 command left 1 command left 10x7ffec74025e0
+
+0x7ffec74025e0
+ command left 1 command left 1 command left 1 command left 1 command left 1 command left 1 command left 1 command left 10x7ffec7600020
+

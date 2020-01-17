@@ -1,4 +1,5 @@
 #include "libft.h"
+#include <stdio.h>
 
 static int		get_len_line(char *str, int y)
 {
@@ -27,7 +28,7 @@ static int		get_len_line(char *str, int y)
 		if (str[i] == '\n')
 		{
 			++count;
-			if (str[i + 1] == '\0')
+			if (y == count && str[i + 1] == '\0')
 				return (0);
 		}
 	}
@@ -55,14 +56,16 @@ char	*ft_insert_symbol(char *str, int x, int y, char ch)
 	int		i;
 	int		j;
 
+
 	if (!str || x < 0 || y < 0)
 		return (NULL);
 	if ((len_line = get_len_line(str, y)) == -1 || len_line < x)
 		return (NULL);
-	if (!(new = (char*)malloc(sizeof(char) * (ft_strlen(str) + 2))))
+	if (!(new = ft_memalloc(ft_strlen(str) + 2)))
 		return (NULL);
 	index = get_index(str, x, y);
 	new[index] = ch;
+	new[ft_strlen(str) + 1] = '\0';
 	i = 0;
 	j = 0;
 	while (str[i] != '\0')

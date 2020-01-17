@@ -20,26 +20,13 @@ void init(t_general *sh, char **env)
 	ft_printf("{set:fd}init is done\n", g_fd);
 }
 
-//					y = 0
-//					y = 1
-//					y = 2
-
 int		main(int argc, char **argv, char **env)
 {
-//	char *str;
-//	str = ft_strdup("ewewe\newqewe\n");
-//	//ft_printf("%s\n", str);
-////	ft_printf("%s\n", );
-//	char *new = ft_insert_symbol(str, 3, 1, 'l');
-//	if (new)
-//		ft_printf("%s\n", new);
-//	else
-//		ft_printf("(null)\n");
 	t_general sh;
 
 	//argc > 1 ? usage() : 0;
 	init(&sh, env);
 	main_loop(&sh);
-    ft_printf("Hello 21sh\n");
+	change_terminal_mode("std", &sh.mode);
     return (0);
 }

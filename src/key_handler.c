@@ -6,4 +6,8 @@ void keys(long ch, t_params_line *cursor)
 	{
 		ft_left_arrow(cursor);
 	}
+	else if (ch == RIGHT_ARROW)
+	{
+		ft_right_arrow(cursor);
+	}
 }

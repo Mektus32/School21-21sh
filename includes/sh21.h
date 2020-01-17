@@ -144,6 +144,7 @@ void keys(long ch, t_params_line *cursor);
 ** functions_for_move.c
 */
 void	ft_left_arrow(t_params_line *cursor);
+void	ft_right_arrow(t_params_line *cursor);
 
 /*
 ** functions_for_get_coordinates.c
@@ -156,4 +157,5 @@ void	get_x_y_after_print(char *str, int *x, int *y);
 ** print_functions.c
 */
 void	ft_print_buffer(t_params_line *cursor);
+
 #endif
