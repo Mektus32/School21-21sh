@@ -116,6 +116,6 @@ add_executable(21sh
         libft/ft_ultoa.c
         libft/ft_ultoa_base.c
         libft/get_next_line.c
-        src/main.c src/terminal_mode.c src/read_buffer.c src/output_functions.c src/main_loop.c src/small_functions.c src/key_handler.c)
+        src/main.c src/terminal_mode.c src/read_buffer.c src/output_functions.c src/main_loop.c src/small_functions.c src/key_handler.c src/functions_for_move.c src/functions_for_get_coordinates.c src/print_functions.c libft/ft_insert_symbol.c)
 
 target_link_libraries(21sh termcap)
