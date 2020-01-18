@@ -1,1 +1,400 @@
 init is done
+[print_buffer] cursor_x = 1, str_len = 1
+[print_buffer] cursor_x = 2, str_len = 2
+[print_buffer] cursor_x = 3, str_len = 3
+[print_buffer] cursor_x = 4, str_len = 4
+[print_buffer] cursor_x = 5, str_len = 5
+[print_buffer] cursor_x = 6, str_len = 6
+[print_buffer] cursor_x = 7, str_len = 7
+[print_buffer] cursor_x = 8, str_len = 8
+[print_buffer] cursor_x = 9, str_len = 9
+[ft_left_arrow] x = 9, y = 0
+[print_buffer] cursor_x = 8, str_len = 9
+[print_buffer] x = 8
+[ft_left_arrow] x = 8, y = 0
+[print_buffer] cursor_x = 7, str_len = 9
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 9
+[print_buffer] x = 6
+[ft_left_arrow] x = 6, y = 0
+[print_buffer] cursor_x = 5, str_len = 9
+[print_buffer] x = 5
+[ft_left_arrow] x = 5, y = 0
+[print_buffer] cursor_x = 4, str_len = 9
+[print_buffer] x = 4
+[print_buffer] cursor_x = 5, str_len = 10
+[print_buffer] x = 5
+[ft_left_arrow] x = 5, y = 0
+[print_buffer] cursor_x = 4, str_len = 10
+[print_buffer] x = 4
+[print_buffer] cursor_x = 5, str_len = 10
+[print_buffer] x = 5
+[print_buffer] cursor_x = 6, str_len = 10
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 10
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 10
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 11
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 11
+[print_buffer] x = 6
+[ft_left_arrow] x = 6, y = 0
+[print_buffer] cursor_x = 5, str_len = 11
+[print_buffer] x = 5
+[print_buffer] cursor_x = 6, str_len = 11
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 11
+[print_buffer] x = 7
+[print_buffer] cursor_x = 8, str_len = 11
+[print_buffer] x = 8
+[print_buffer] cursor_x = 9, str_len = 11
+[print_buffer] x = 9
+[print_buffer] cursor_x = 10, str_len = 12
+[print_buffer] x = 10
+[print_buffer] cursor_x = 11, str_len = 13
+[print_buffer] x = 11
+[ft_left_arrow] x = 11, y = 0
+[print_buffer] cursor_x = 10, str_len = 13
+[print_buffer] x = 10
+[print_buffer] cursor_x = 11, str_len = 13
+[print_buffer] x = 11
+[print_buffer] cursor_x = 12, str_len = 13
+[print_buffer] x = 12
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[ft_left_arrow] x = 13, y = 0
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[ft_left_arrow] x = 12, y = 0
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[ft_left_arrow] x = 14, y = 0
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[ft_left_arrow] x = 13, y = 0
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[ft_left_arrow] x = 12, y = 0
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[ft_left_arrow] x = 11, y = 0
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[ft_left_arrow] x = 10, y = 0
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[ft_left_arrow] x = 9, y = 0
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[ft_left_arrow] x = 8, y = 0
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[ft_left_arrow] x = 6, y = 0
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[ft_left_arrow] x = 5, y = 0
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[ft_left_arrow] x = 4, y = 0
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[ft_left_arrow] x = 3, y = 0
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[ft_left_arrow] x = 2, y = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[ft_left_arrow] x = 1, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[ft_left_arrow] x = 14, y = 0
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[ft_left_arrow] x = 13, y = 0
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[ft_left_arrow] x = 12, y = 0
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[ft_left_arrow] x = 11, y = 0
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[ft_left_arrow] x = 10, y = 0
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[ft_left_arrow] x = 9, y = 0
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[ft_left_arrow] x = 8, y = 0
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[ft_left_arrow] x = 6, y = 0
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[ft_left_arrow] x = 5, y = 0
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[ft_left_arrow] x = 4, y = 0
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[ft_left_arrow] x = 3, y = 0
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[ft_left_arrow] x = 2, y = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[ft_left_arrow] x = 1, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[ft_left_arrow] x = 14, y = 0
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[ft_left_arrow] x = 13, y = 0
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[ft_left_arrow] x = 12, y = 0
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[ft_left_arrow] x = 11, y = 0
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[ft_left_arrow] x = 10, y = 0
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[ft_left_arrow] x = 9, y = 0
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[ft_left_arrow] x = 8, y = 0
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[ft_left_arrow] x = 7, y = 0
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[ft_left_arrow] x = 6, y = 0
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[ft_left_arrow] x = 5, y = 0
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[ft_left_arrow] x = 4, y = 0
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[ft_left_arrow] x = 3, y = 0
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[ft_left_arrow] x = 2, y = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[ft_left_arrow] x = 1, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[ft_left_arrow] x = 0, y = 0
+[print_buffer] cursor_x = 0, str_len = 14
+[print_buffer] x = 0
+[print_buffer] cursor_x = 1, str_len = 14
+[print_buffer] x = 1
+[print_buffer] cursor_x = 2, str_len = 14
+[print_buffer] x = 2
+[print_buffer] cursor_x = 3, str_len = 14
+[print_buffer] x = 3
+[print_buffer] cursor_x = 4, str_len = 14
+[print_buffer] x = 4
+[print_buffer] cursor_x = 5, str_len = 14
+[print_buffer] x = 5
+[print_buffer] cursor_x = 6, str_len = 14
+[print_buffer] x = 6
+[print_buffer] cursor_x = 7, str_len = 14
+[print_buffer] x = 7
+[print_buffer] cursor_x = 8, str_len = 14
+[print_buffer] x = 8
+[print_buffer] cursor_x = 9, str_len = 14
+[print_buffer] x = 9
+[print_buffer] cursor_x = 10, str_len = 14
+[print_buffer] x = 10
+[print_buffer] cursor_x = 11, str_len = 14
+[print_buffer] x = 11
+[print_buffer] cursor_x = 12, str_len = 14
+[print_buffer] x = 12
+[print_buffer] cursor_x = 13, str_len = 14
+[print_buffer] x = 13
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14
+[print_buffer] cursor_x = 14, str_len = 14

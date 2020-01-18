@@ -26,13 +26,11 @@ extern int g_fd;
 */
 typedef struct	s_params_line
 {
-	int		prompt_len;
 	int		input_mode;
 	char	*str;
 	int		str_len;
-	int		imagin_cursor_x;
+	int		cursor_x;
 	int		cursor_y;
-	int 	real_cursor_x;
 }				t_params_line;
 
 /*
@@ -95,7 +93,7 @@ void				main_loop(t_general *sh);
 */
 int					print_ch(int ch);
 void				ft_exit(int status);
-void				print_command(char *str);
+void print_command(char *str, long ch);
 
 /*
 ** key_handler.c
@@ -112,8 +110,8 @@ void	ft_right_arrow(t_params_line *cursor);
 ** functions_for_get_coordinates.c
 */
 int		get_len_line(char *str, int y);
-void	ft_print_buffer(t_params_line *cursor);
 void	get_x_y_after_print(char *str, int *x, int *y);
+int		get_index(char *str, int y, int x);
 
 /*
 ** print_functions.c
