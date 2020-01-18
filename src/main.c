@@ -25,7 +25,7 @@ int		main(int argc, char **argv, char **env)
 	t_general sh;
 	long	a = 0;
 
-	//argc > 1 ? usage() : 0;
+//	//argc > 1 ? usage() : 0;
 	init(&sh, env);
 	main_loop(&sh);
 	change_terminal_mode("std", &sh.mode);

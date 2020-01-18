@@ -30,12 +30,11 @@
 
 /*
 ** keys to copying text
-** //TODO change on vim keys
 */
-#  define CTR_A_LEFT_ARROW 7499541704577499
-#  define CTR_A_RIGHT_ARROW 73895905418011
-#  define CTR_A_UP_ARROW 71696882162459
-#  define CTR_A_DOWN_ARROW 72796393790235
+#  define CTR_H 26651
+#  define CTR_J 27163
+#  define CTR_K 27419
+#  define CTR_L 27675
 
 /*
 ** key to paste text
@@ -53,6 +52,11 @@
 */
 #  define HOME 4741916
 #  define END 4610843
+
+/*
+** backspace
+*/
+#  define DEL 127
 # elif __APPLE__
 /*
 ** keys to move cursor
@@ -92,5 +96,11 @@
 */
 #  define HOME 4741916
 #  define END 4610843
+
+/*
+** backspace
+*/
+#  define DEL 127
 # endif
+
 #endif

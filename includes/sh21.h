@@ -107,6 +107,7 @@ void keys(long ch, t_params_line *cursor);
 */
 void	ft_left_arrow(t_params_line *cursor);
 void	ft_right_arrow(t_params_line *cursor);
+void	ft_del_arrow(t_params_line *cursor);
 
 /*
 ** functions_for_get_coordinates.c

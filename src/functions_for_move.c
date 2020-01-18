@@ -87,3 +87,20 @@ void	ft_right_arrow(t_params_line *cursor)
 	cursor->cursor_x = x;
 	cursor->cursor_y = y;
 }
+
+void	ft_del_arrow(t_params_line *cursor)
+{
+	char *tmp;
+	tmp = ft_del_symbol(cursor->str, cursor->cursor_x - 1, cursor->cursor_y);
+	if (!tmp)
+		return ;
+	cursor->str = tmp;
+	ft_printf("{set:fd}[del_arrow][%s]\n", g_fd, cursor->str);
+	--cursor->cursor_x;
+	--cursor->str_len;
+	write(1, "\b", 1);
+	write(1, " ", 1);
+	write(1, "\b", 1);
+	ft_print_buffer(cursor);
+	//TODO добавить проверку модов ввода и добавлять в конец пробел чтобы замазать старый символ
+}

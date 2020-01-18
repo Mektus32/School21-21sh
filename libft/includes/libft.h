@@ -125,5 +125,6 @@ char				**ft_addlinetwarr(const char **arr, const char *str,
 char				*ft_replaceonspaces(char *str);
 char				*ft_insert_symbol(char *str, int x, int y, char ch);
 char				*ft_get_str_to_delim(const char *str, int x, char delim);
+char				*ft_del_symbol(char * str, int x, int y);
 
 #endif

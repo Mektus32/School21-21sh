@@ -10,4 +10,8 @@ void keys(long ch, t_params_line *cursor)
 	{
 		ft_right_arrow(cursor);
 	}
+	else if (ch == DEL)
+	{
+		ft_del_arrow(cursor);
+	}
 }
