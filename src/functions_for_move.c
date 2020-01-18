@@ -33,6 +33,16 @@ void	ft_left_arrow(t_params_line *cursor)
 			}
 		}
 	}
+	else
+	{
+		if (x == 0)
+			print_command("\a", 0);
+		else
+		{
+			print_command(tgetstr("le", NULL), LEFT_ARROW);
+			--x;
+		}
+	}
 	cursor->cursor_x = x;
 	cursor->cursor_y = y;
 }
@@ -48,7 +58,7 @@ void	ft_right_arrow(t_params_line *cursor)
 	len = get_len_line(cursor->str, y);
 	if (cursor->input_mode == STANDART_MODE)
 	{
-		if (x == len)
+		if (x >= len)
 		{
 			if (get_len_line(cursor->str, y + 1) == -1)
 				print_command("\a", 0);
@@ -58,6 +68,16 @@ void	ft_right_arrow(t_params_line *cursor)
 				++y;
 			}
 		}
+		else
+		{
+			print_command(NULL, RIGHT_ARROW);
+			++x;
+		}
+	}
+	else
+	{
+		if (x >= len)
+			print_command("\a", 0);
 		else
 		{
 			print_command(NULL, RIGHT_ARROW);

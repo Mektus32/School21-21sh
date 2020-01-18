@@ -13,6 +13,7 @@ SRC =   main.c \
 		functions_for_move.c \
 		functions_for_get_coordinates.c \
 		print_functions.c \
+		check_params.c \
 
 
 OBJ = $(addprefix $(OBJDIR), $(SRC:.c=.o))

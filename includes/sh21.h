@@ -26,6 +26,8 @@ extern int g_fd;
 */
 typedef struct	s_params_line
 {
+	int		count_double_quotes;
+	int		count_single_quotes;
 	int		input_mode;
 	char	*str;
 	int		str_len;
@@ -117,5 +119,10 @@ int		get_index(char *str, int y, int x);
 ** print_functions.c
 */
 void	ft_print_buffer(t_params_line *cursor);
+
+/*
+** check_params.c
+*/
+BOOL	quotes(t_params_line *cursor, char ch);
 
 #endif

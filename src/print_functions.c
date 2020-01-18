@@ -9,7 +9,7 @@ void	ft_print_buffer(t_params_line *cursor)
 	output = NULL;
 	len = 0;
 	ft_printf("{set:fd}[print_buffer] cursor_x = %d, str_len = %d\n", g_fd, cursor->cursor_x, cursor->str_len);
-	if (cursor->cursor_x != cursor->str_len)
+	if ((x = get_len_line(cursor->str, cursor->cursor_y)) != -1 && x != cursor->cursor_x)
 	{
 		x = get_index(cursor->str, cursor->cursor_y, cursor->cursor_x);
 		ft_printf("{set:fd}[print_buffer] x = %d\n", g_fd, x);
