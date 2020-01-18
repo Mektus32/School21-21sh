@@ -119,7 +119,7 @@ int		get_index(char *str, int y, int x);
 /*
 ** print_functions.c
 */
-void	ft_print_buffer(t_params_line *cursor);
+void ft_print_buffer(t_params_line *cursor, BOOL del_last);
 
 /*
 ** check_params.c

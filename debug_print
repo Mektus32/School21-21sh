@@ -4,9 +4,43 @@ init is done
 [print_buffer] cursor_x = 3, str_len = 3
 [print_buffer] cursor_x = 4, str_len = 4
 [print_buffer] cursor_x = 5, str_len = 5
-[del_arrow][1234]
-[print_buffer] cursor_x = 4, str_len = 4
-[ft_left_arrow] x = 4, y = 0
-[del_arrow][124]
-[print_buffer] cursor_x = 2, str_len = 3
-[print_buffer] x = 2
+[print_buffer] cursor_x = 6, str_len = 6
+[print_buffer] cursor_x = 7, str_len = 7
+[del_arrow][123456]
+[del_arrow][123456 ]
+[print_buffer] cursor_x = 6, str_len = 6
+[print_buffer] x = 6
+[del_arrow][123456]
+[del_arrow][12345]
+[del_arrow][12345 ]
+[print_buffer] cursor_x = 5, str_len = 5
+[print_buffer] x = 5
+[del_arrow][12345]
+[ft_left_arrow] x = 5, y = 0
+[del_arrow][1235]
+[del_arrow][1235 ]
+[print_buffer] cursor_x = 3, str_len = 4
+[print_buffer] x = 3
+[del_arrow][1235]
+[ft_left_arrow] x = 3, y = 0
+[del_arrow][135]
+[del_arrow][135 ]
+[print_buffer] cursor_x = 1, str_len = 3
+[print_buffer] x = 1
+[del_arrow][135]
+[del_arrow][15]
+[del_arrow][15 ]
+[print_buffer] cursor_x = 1, str_len = 2
+[print_buffer] x = 1
+[del_arrow][15]
+[ft_left_arrow] x = 2, y = 0
+[del_arrow][5]
+[del_arrow][5 ]
+[print_buffer] cursor_x = 0, str_len = 1
+[print_buffer] x = 0
+[del_arrow][5]
+[del_arrow][]
+[del_arrow][ ]
+[print_buffer] cursor_x = 0, str_len = 0
+[print_buffer] x = 0
+[del_arrow][]

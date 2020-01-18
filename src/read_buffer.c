@@ -21,7 +21,7 @@ char *read_buffer(t_general *sh)
 												   tpl->cursor_y, (char)c);
 			write(STDOUT_FILENO, &c, 1);
 			++tpl->cursor_x;
-			ft_print_buffer(tpl);
+			ft_print_buffer(tpl, FALSE);
 		}
 		else if (c == '\n')
 		{
@@ -41,7 +41,7 @@ char *read_buffer(t_general *sh)
 					tpl->cursor_x = 0;
 				}
 			}
-			ft_print_buffer(tpl);
+			ft_print_buffer(tpl, FALSE);
 		}
 		else
 			keys(c, tpl);

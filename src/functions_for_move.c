@@ -91,6 +91,13 @@ void	ft_right_arrow(t_params_line *cursor)
 void	ft_del_arrow(t_params_line *cursor)
 {
 	char *tmp;
+
+	if ((cursor->input_mode == QUOTES_MODE && cursor->cursor_x == 0)
+	|| (cursor->input_mode == STANDART_MODE && cursor->cursor_x == 0 && cursor->cursor_y == 0))
+	{
+		print_command("\a", 0);
+		return ;
+	}
 	tmp = ft_del_symbol(cursor->str, cursor->cursor_x - 1, cursor->cursor_y);
 	if (!tmp)
 		return ;
@@ -98,9 +105,13 @@ void	ft_del_arrow(t_params_line *cursor)
 	ft_printf("{set:fd}[del_arrow][%s]\n", g_fd, cursor->str);
 	--cursor->cursor_x;
 	--cursor->str_len;
-	write(1, "\b", 1);
-	write(1, " ", 1);
-	write(1, "\b", 1);
-	ft_print_buffer(cursor);
-	//TODO добавить проверку модов ввода и добавлять в конец пробел чтобы замазать старый символ
+	print_command("\b", 0);
+	cursor->str = ft_strplussymb(cursor->str, ' ');
+	ft_printf("{set:fd}[del_arrow][%s]\n", g_fd, cursor->str);
+	ft_print_buffer(cursor, TRUE);
+	tmp = ft_strsub(cursor->str, 0, ft_strlen(cursor->str) - 1);
+	ft_strdel(&cursor->str);
+	cursor->str = tmp;
+	ft_printf("{set:fd}[del_arrow][%s]\n", g_fd, cursor->str);
+	//ft_strdel(&tmp);
 }

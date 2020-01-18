@@ -1,6 +1,6 @@
 #include "sh21.h"
 
-void	ft_print_buffer(t_params_line *cursor)
+void ft_print_buffer(t_params_line *cursor, BOOL del_last)
 {
 	int		x;
 	char	*output;
@@ -18,8 +18,10 @@ void	ft_print_buffer(t_params_line *cursor)
 			output = ft_get_str_to_delim(cursor->str, x, '\n');
 			if (output)
 			{
-				len = ft_strlen(output);
+				len = ft_strlen(output) - del_last;
 				ft_printf("%s", output);
+				if (del_last)
+					print_command("\b", 0);
 				while (len-- > 0)
 					print_command(tgetstr("le", NULL), 0);
 			}

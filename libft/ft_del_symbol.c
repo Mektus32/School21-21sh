@@ -66,6 +66,7 @@ char	*ft_del_symbol(char * str, int x, int y)
 			++i;
 		new_str[j++] = str[i];
 	}
+	new_str[j] = '\0';
 	free(str);
 	return (new_str);
 }
