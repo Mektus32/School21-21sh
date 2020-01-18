@@ -23,6 +23,7 @@ void init(t_general *sh, char **env)
 int		main(int argc, char **argv, char **env)
 {
 	t_general sh;
+	long	a = 0;
 
 	//argc > 1 ? usage() : 0;
 	init(&sh, env);

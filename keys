@@ -1,11 +1,13 @@
+#ifdef __linux__
 left arrow -> 4479771
 right arrow -> 4414235
 up arrow -> 4283163
 down arrow -> 4348699
-ctr+a+left arrow -> 7499541704577499 copy
+//TODO change on vim moving(ctr+hjkl)
+/*ctr+a+left arrow -> 7499541704577499 copy
 ctr+a+right arrow -> 73895905418011 copy
 ctr+a+up arrow -> 71696882162459 copy
-ctr+a+down arrow -> 72796393790235 copy
+ctr+a+down arrow -> 72796393790235 copy*/
 ctr+left arrow -> 74995417045787
 ctr+right arrow -> 73895905418011
 home -> 4741916
@@ -13,4 +15,21 @@ end -> 4610843
 ctr+p -> 16 paste
 ctr+up arrow -> 71696882162459
 ctr+down arrow -> 72796393790235
+#elif __APPLE__
+left arrow -> 4479771
+right arrow -> 4414235
+up arrow -> 4283163
+down arrow -> 4348699
+option+h -> 39371 copy left
+option+j -> 8816866 copy down
+option+k -> 39627 copy up
+option+l -> 44226 copy right
+option+left arrow -> 1146821403
+option+right arrow -> 1130044187
+home -> 4741915
+end -> 4610843
+option+p -> 32975 paste
+option+up arrow -> 1096489755
+option+down arrow -> 1113266971
+#endif
 
